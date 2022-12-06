@@ -1,0 +1,942 @@
+2022-12-06 10:38:40 [background-preinit] INFO  : HV000001: Hibernate Validator 6.2.5.Final
+2022-12-06 10:38:40 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 6972 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 10:38:40 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 10:38:41 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 10:38:41 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 10:38:41 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 10:38:42 [restartedMain] INFO  : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2022-12-06 10:38:42 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 10:38:42 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:38:42 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 10:38:42 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 10:38:43 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 10:38:43 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1972 ms
+2022-12-06 10:38:43 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-12-06 10:38:43 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-12-06 10:38:43 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 10:38:43 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 10:38:43 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-06 10:38:43 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 10:38:44 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 10:38:45 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 10:38:45 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:38:45 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 10:38:45 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 10:38:46 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:38:46 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 10:38:46 [restartedMain] INFO  : Started AppointmentApplication in 5.837 seconds (JVM running for 7.095)
+2022-12-06 10:39:38 [http-nio-8091-exec-5] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 10:39:38 [http-nio-8091-exec-5] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-12-06 10:39:38 [http-nio-8091-exec-5] INFO  : Completed initialization in 3 ms
+2022-12-06 10:39:56 [http-nio-8091-exec-1] INFO  : Inside AppointmentController.addAppointmentDetails
+2022-12-06 10:39:56 [http-nio-8091-exec-1] INFO  : Inside AppointmentServiceImpl.addAppointmentDetails
+2022-12-06 10:40:29 [http-nio-8091-exec-10] INFO  : Inside AppointmentController.addAppointmentDetails
+2022-12-06 10:40:29 [http-nio-8091-exec-10] INFO  : Inside AppointmentServiceImpl.addAppointmentDetails
+2022-12-06 10:40:55 [http-nio-8091-exec-9] INFO  : Inside AppointmentController.addAppointmentDetails
+2022-12-06 10:40:55 [http-nio-8091-exec-9] INFO  : Inside AppointmentServiceImpl.addAppointmentDetails
+2022-12-06 10:42:41 [http-nio-8091-exec-3] INFO  : Inside AppointmentController.addAppointmentDetails
+2022-12-06 10:42:41 [http-nio-8091-exec-3] INFO  : Inside AppointmentServiceImpl.addAppointmentDetails
+2022-12-06 10:45:08 [http-nio-8091-exec-9] INFO  : Inside AppointmentController.getAllAppointmentDetails
+2022-12-06 10:45:08 [http-nio-8091-exec-9] INFO  : Inside AppointmentServiceImpl.getAllAppointmentDetails
+2022-12-06 10:45:58 [http-nio-8091-exec-4] INFO  : Inside AppointmentController.getAppointmentDetails
+2022-12-06 10:45:58 [http-nio-8091-exec-4] INFO  : Inside AppointmentServiceImpl.getAppointmentDetails
+2022-12-06 10:46:38 [http-nio-8091-exec-6] INFO  : Inside AppointmentController.update
+2022-12-06 10:46:38 [http-nio-8091-exec-6] INFO  : Inside AppointmentServiceImpl.updateAppointmentDetails
+2022-12-06 10:47:07 [http-nio-8091-exec-5] INFO  : Inside AppointmentServiceImpl.deleteAppointment
+2022-12-06 10:47:07 [http-nio-8091-exec-5] INFO  : Inside AppointmentController.deleteById
+2022-12-06 10:47:19 [RMI TCP Connection(12)-127.0.0.1] INFO  : Application shutdown requested.
+2022-12-06 10:47:19 [RMI TCP Connection(12)-127.0.0.1] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:47:19 [RMI TCP Connection(12)-127.0.0.1] INFO  : Stopping service [Tomcat]
+2022-12-06 10:47:19 [RMI TCP Connection(12)-127.0.0.1] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 10:47:19 [RMI TCP Connection(12)-127.0.0.1] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:47:19 [RMI TCP Connection(12)-127.0.0.1] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:47:19 [RMI TCP Connection(12)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:47:20 [HikariPool-1 connection adder] ERROR : HikariPool-1 - Error thrown while acquiring connection from data source
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.SessionLocal.checkSuspended(SessionLocal.java:1240)
+	at org.h2.engine.SessionLocal.transitionToState(SessionLocal.java:1232)
+	at org.h2.engine.SessionLocal.setCurrentCommand(SessionLocal.java:1210)
+	at org.h2.engine.SessionLocal.startStatementWithinTransaction(SessionLocal.java:1658)
+	at org.h2.command.Command.executeQuery(Command.java:184)
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:538)
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-12-06 10:47:20 [RMI TCP Connection(12)-127.0.0.1] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 10:47:20 [RMI TCP Connection(12)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2022-12-06 10:47:20 [RMI TCP Connection(12)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.
+2022-12-06 10:54:07 [background-preinit] INFO  : HV000001: Hibernate Validator 6.2.5.Final
+2022-12-06 10:54:07 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 2420 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 10:54:07 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 10:54:07 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 10:54:07 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 10:54:08 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 10:54:08 [restartedMain] INFO  : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2022-12-06 10:54:09 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 10:54:09 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:09 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 10:54:09 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 10:54:10 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 10:54:10 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2563 ms
+2022-12-06 10:54:10 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-12-06 10:54:10 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-12-06 10:54:10 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 10:54:10 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 10:54:10 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-06 10:54:11 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 10:54:11 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 10:54:12 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 10:54:12 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:54:13 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 10:54:13 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 10:54:13 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 10:54:13 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:13 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 10:54:13 [restartedMain] INFO  : Context refreshed
+2022-12-06 10:54:13 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 10:54:13 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2022-12-06 10:54:13 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:54:14 [restartedMain] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 10:54:14 [restartedMain] INFO  : HikariPool-1 - Shutdown initiated...
+2022-12-06 10:54:14 [restartedMain] INFO  : HikariPool-1 - Shutdown completed.
+2022-12-06 10:54:14 [restartedMain] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:14 [restartedMain] INFO  : Stopping service [Tomcat]
+2022-12-06 10:54:14 [restartedMain] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:14 [restartedMain] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:14 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-06 10:54:14 [restartedMain] ERROR : Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.assessment.appointment.application.AppointmentApplication.main(AppointmentApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:110)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:38)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:817)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:52)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:129)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:126)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:799)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators$5.hasNext(Iterators.java:548)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:268)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:226)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:373)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:100)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:154)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2022-12-06 10:54:47 [background-preinit] INFO  : HV000001: Hibernate Validator 6.2.5.Final
+2022-12-06 10:54:47 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 6896 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 10:54:47 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 10:54:47 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 10:54:47 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 10:54:48 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 10:54:48 [restartedMain] INFO  : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interfaces.
+2022-12-06 10:54:49 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 10:54:49 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:49 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 10:54:49 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 10:54:49 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 10:54:49 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2215 ms
+2022-12-06 10:54:50 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-12-06 10:54:50 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-12-06 10:54:50 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 10:54:50 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 10:54:50 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-06 10:54:50 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 10:54:50 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 10:54:51 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 10:54:51 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:54:52 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 10:54:52 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 10:54:53 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 10:54:53 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:53 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 10:54:53 [restartedMain] INFO  : Context refreshed
+2022-12-06 10:54:53 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 10:54:53 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2022-12-06 10:54:53 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:54:53 [restartedMain] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 10:54:53 [restartedMain] INFO  : HikariPool-1 - Shutdown initiated...
+2022-12-06 10:54:53 [restartedMain] INFO  : HikariPool-1 - Shutdown completed.
+2022-12-06 10:54:53 [restartedMain] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:53 [restartedMain] INFO  : Stopping service [Tomcat]
+2022-12-06 10:54:53 [restartedMain] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:53 [restartedMain] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:54:53 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-06 10:54:53 [restartedMain] ERROR : Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.assessment.appointment.application.AppointmentApplication.main(AppointmentApplication.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:110)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:38)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:817)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:52)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:129)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:126)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:799)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators$5.hasNext(Iterators.java:548)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:268)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:226)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:373)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:100)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:154)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2022-12-06 10:57:19 [background-preinit] INFO  : HV000001: Hibernate Validator 6.2.5.Final
+2022-12-06 10:57:19 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 14548 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 10:57:19 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 10:57:19 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 10:57:19 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 10:57:21 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 10:57:21 [restartedMain] INFO  : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+2022-12-06 10:57:22 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 10:57:22 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:57:22 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 10:57:22 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 10:57:22 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 10:57:22 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2559 ms
+2022-12-06 10:57:22 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-12-06 10:57:22 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-12-06 10:57:22 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 10:57:23 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 10:57:23 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-06 10:57:23 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 10:57:23 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 10:57:24 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 10:57:24 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:57:25 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 10:57:25 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 10:57:25 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 10:57:26 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:57:26 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 10:57:26 [restartedMain] INFO  : Context refreshed
+2022-12-06 10:57:26 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 10:57:26 [restartedMain] WARN  : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+2022-12-06 10:57:26 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:57:27 [restartedMain] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 10:57:27 [restartedMain] INFO  : HikariPool-1 - Shutdown initiated...
+2022-12-06 10:57:27 [restartedMain] INFO  : HikariPool-1 - Shutdown completed.
+2022-12-06 10:57:27 [restartedMain] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:57:27 [restartedMain] INFO  : Stopping service [Tomcat]
+2022-12-06 10:57:27 [restartedMain] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:57:27 [restartedMain] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:57:27 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-06 10:57:27 [restartedMain] ERROR : Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.assessment.appointment.application.AppointmentApplication.main(AppointmentApplication.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.web.servlet.mvc.condition.PatternsRequestCondition.toString()" because the return value of "springfox.documentation.spi.service.contexts.Orderings.patternsCondition(springfox.documentation.RequestHandler)" is null
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings$8.compare(Orderings.java:110)
+	at com.google.common.collect.ComparatorOrdering.compare(ComparatorOrdering.java:38)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.base/java.util.TimSort.sort(TimSort.java:220)
+	at java.base/java.util.Arrays.sort(Arrays.java:1233)
+	at com.google.common.collect.Ordering.sortedCopy(Ordering.java:817)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:52)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:129)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper$2.apply(DocumentationPluginsBootstrapper.java:126)
+	at com.google.common.collect.Iterators$8.transform(Iterators.java:799)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.TransformedIterator.next(TransformedIterator.java:48)
+	at com.google.common.collect.Iterators$5.hasNext(Iterators.java:548)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:268)
+	at com.google.common.collect.ImmutableList.copyOf(ImmutableList.java:226)
+	at com.google.common.collect.FluentIterable.toList(FluentIterable.java:373)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.defaultContextBuilder(DocumentationPluginsBootstrapper.java:100)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.buildContext(DocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:154)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178)
+	... 19 common frames omitted
+2022-12-06 10:58:16 [background-preinit] INFO  : HV000001: Hibernate Validator 6.2.5.Final
+2022-12-06 10:58:16 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 10:58:16 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 10:58:16 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-06 10:58:16 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-06 10:58:18 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 10:58:18 [restartedMain] INFO  : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2022-12-06 10:58:19 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 10:58:19 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:58:19 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 10:58:19 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 10:58:19 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 10:58:19 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2462 ms
+2022-12-06 10:58:19 [restartedMain] INFO  : HikariPool-1 - Starting...
+2022-12-06 10:58:19 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2022-12-06 10:58:19 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 10:58:20 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 10:58:20 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-06 10:58:20 [restartedMain] INFO  : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-06 10:58:20 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 10:58:21 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 10:58:21 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 10:58:22 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 10:58:22 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 10:58:22 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 10:58:23 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 10:58:23 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 10:58:23 [restartedMain] INFO  : Context refreshed
+2022-12-06 10:58:23 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 10:58:23 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 10:58:24 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 10:58:24 [restartedMain] INFO  : Started AppointmentApplication in 7.888 seconds (JVM running for 9.135)
+2022-12-06 10:58:41 [http-nio-8091-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 10:58:41 [http-nio-8091-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-12-06 10:58:41 [http-nio-8091-exec-1] INFO  : Completed initialization in 3 ms
+2022-12-06 10:58:42 [http-nio-8091-exec-8] INFO  : Init duration for springdoc-openapi is: 528 ms
+2022-12-06 11:00:32 [Thread-5] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:00:32 [Thread-5] INFO  : Stopping service [Tomcat]
+2022-12-06 11:00:32 [Thread-5] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 11:00:32 [Thread-5] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:00:32 [Thread-5] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:00:32 [Thread-5] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:00:32 [Thread-5] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:00:32 [Thread-5] INFO  : HikariPool-1 - Shutdown initiated...
+2022-12-06 11:00:32 [Thread-5] INFO  : HikariPool-1 - Shutdown completed.
+2022-12-06 11:00:33 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:00:33 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:00:33 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:00:33 [restartedMain] INFO  : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:00:33 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:00:33 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:00:33 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:00:33 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:00:33 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:00:33 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 680 ms
+2022-12-06 11:00:33 [restartedMain] INFO  : HikariPool-2 - Starting...
+2022-12-06 11:00:33 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2022-12-06 11:00:33 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:00:33 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:00:33 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:00:33 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:00:33 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:00:34 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:00:34 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:00:34 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:00:34 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:00:34 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:00:34 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:00:34 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:00:34 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:00:34 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:00:34 [restartedMain] INFO  : Started AppointmentApplication in 1.654 seconds (JVM running for 139.75)
+2022-12-06 11:00:34 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:00:38 [http-nio-8091-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 11:00:38 [http-nio-8091-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-12-06 11:00:38 [http-nio-8091-exec-1] INFO  : Completed initialization in 2 ms
+2022-12-06 11:00:38 [http-nio-8091-exec-7] INFO  : Init duration for springdoc-openapi is: 81 ms
+2022-12-06 11:31:15 [http-nio-8091-exec-5] INFO  : Inside AppointmentController.getAppointmentDetails
+2022-12-06 11:31:15 [http-nio-8091-exec-5] INFO  : Inside AppointmentServiceImpl.getAppointmentDetails
+2022-12-06 11:33:26 [Thread-8] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:26 [Thread-8] INFO  : Stopping service [Tomcat]
+2022-12-06 11:33:26 [Thread-8] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 11:33:26 [Thread-8] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:26 [Thread-8] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:26 [Thread-8] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:33:26 [Thread-8] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:33:26 [Thread-8] INFO  : HikariPool-2 - Shutdown initiated...
+2022-12-06 11:33:26 [Thread-8] INFO  : HikariPool-2 - Shutdown completed.
+2022-12-06 11:33:26 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:33:26 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:33:27 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:33:27 [restartedMain] INFO  : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:33:27 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:33:27 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:27 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:33:27 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:33:27 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:33:27 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 589 ms
+2022-12-06 11:33:27 [restartedMain] INFO  : HikariPool-3 - Starting...
+2022-12-06 11:33:27 [restartedMain] INFO  : HikariPool-3 - Start completed.
+2022-12-06 11:33:27 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:33:27 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:33:27 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:33:27 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:33:27 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:33:27 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:33:27 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:33:27 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:33:28 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:28 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:33:28 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:33:28 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:33:28 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:33:28 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:33:28 [restartedMain] INFO  : Started AppointmentApplication in 1.553 seconds (JVM running for 2113.416)
+2022-12-06 11:33:28 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:33:31 [Thread-12] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:31 [Thread-12] INFO  : Stopping service [Tomcat]
+2022-12-06 11:33:31 [Thread-12] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:31 [Thread-12] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:31 [Thread-12] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:33:31 [Thread-12] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:33:31 [Thread-12] INFO  : HikariPool-3 - Shutdown initiated...
+2022-12-06 11:33:31 [Thread-12] INFO  : HikariPool-3 - Shutdown completed.
+2022-12-06 11:33:32 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:33:32 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:33:32 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:33:32 [restartedMain] INFO  : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:33:32 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:33:32 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:32 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:33:32 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:33:32 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:33:32 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 514 ms
+2022-12-06 11:33:32 [restartedMain] INFO  : HikariPool-4 - Starting...
+2022-12-06 11:33:32 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2022-12-06 11:33:32 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:33:32 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:33:32 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:33:32 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:33:32 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:33:32 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:33:32 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:33:32 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:33:33 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:33:33 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:33:33 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:33:33 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:33:33 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:33:33 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:33:33 [restartedMain] INFO  : Started AppointmentApplication in 1.431 seconds (JVM running for 2118.492)
+2022-12-06 11:33:33 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:35:41 [Thread-16] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:35:41 [Thread-16] INFO  : Stopping service [Tomcat]
+2022-12-06 11:35:41 [Thread-16] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:35:41 [Thread-16] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:35:41 [Thread-16] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:35:41 [Thread-16] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:35:41 [Thread-16] INFO  : HikariPool-4 - Shutdown initiated...
+2022-12-06 11:35:41 [Thread-16] INFO  : HikariPool-4 - Shutdown completed.
+2022-12-06 11:35:42 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:35:42 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:35:42 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:35:42 [restartedMain] INFO  : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:35:42 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:35:42 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:35:42 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:35:42 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:35:42 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:35:42 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 660 ms
+2022-12-06 11:35:42 [restartedMain] INFO  : HikariPool-5 - Starting...
+2022-12-06 11:35:42 [restartedMain] INFO  : HikariPool-5 - Start completed.
+2022-12-06 11:35:42 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:35:42 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:35:42 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:35:42 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:35:42 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:35:43 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:35:43 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:35:43 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:35:43 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:35:43 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:35:43 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:35:43 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:35:43 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:35:43 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:35:43 [restartedMain] INFO  : Started AppointmentApplication in 1.703 seconds (JVM running for 2248.749)
+2022-12-06 11:35:43 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:35:45 [http-nio-8091-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 11:35:45 [http-nio-8091-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-12-06 11:35:45 [http-nio-8091-exec-1] INFO  : Completed initialization in 1 ms
+2022-12-06 11:35:45 [http-nio-8091-exec-1] INFO  : Inside AppointmentController.getAppointmentDetails
+2022-12-06 11:35:45 [http-nio-8091-exec-1] INFO  : Inside AppointmentServiceImpl.getAppointmentDetails
+2022-12-06 11:35:45 [http-nio-8091-exec-1] ERROR : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because "appointmentDetails" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because "appointmentDetails" is null
+	at com.assessment.appointment.application.controller.AppointmentController.getAppointmentDetails(AppointmentController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-12-06 11:37:36 [Thread-20] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:37:36 [Thread-20] INFO  : Stopping service [Tomcat]
+2022-12-06 11:37:36 [Thread-20] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 11:37:36 [Thread-20] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:37:36 [Thread-20] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:37:36 [Thread-20] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:37:36 [Thread-20] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:37:36 [Thread-20] INFO  : HikariPool-5 - Shutdown initiated...
+2022-12-06 11:37:36 [Thread-20] INFO  : HikariPool-5 - Shutdown completed.
+2022-12-06 11:37:36 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:37:36 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:37:36 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:37:36 [restartedMain] INFO  : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:37:37 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:37:37 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:37:37 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:37:37 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:37:37 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:37:37 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 643 ms
+2022-12-06 11:37:37 [restartedMain] INFO  : HikariPool-6 - Starting...
+2022-12-06 11:37:37 [restartedMain] INFO  : HikariPool-6 - Start completed.
+2022-12-06 11:37:37 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:37:37 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:37:37 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:37:37 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:37:37 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:37:37 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:37:37 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:37:37 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:37:37 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:37:37 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:37:37 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:37:37 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:37:37 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:37:37 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:37:37 [restartedMain] INFO  : Started AppointmentApplication in 1.525 seconds (JVM running for 2362.969)
+2022-12-06 11:37:37 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:37:41 [http-nio-8091-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-06 11:37:41 [http-nio-8091-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2022-12-06 11:37:41 [http-nio-8091-exec-2] INFO  : Completed initialization in 2 ms
+2022-12-06 11:37:41 [http-nio-8091-exec-2] INFO  : Inside AppointmentController.getAppointmentDetails
+2022-12-06 11:37:41 [http-nio-8091-exec-2] INFO  : Inside AppointmentServiceImpl.getAppointmentDetails
+2022-12-06 11:37:59 [http-nio-8091-exec-3] INFO  : Inside AppointmentController.addAppointmentDetails
+2022-12-06 11:37:59 [http-nio-8091-exec-3] INFO  : Inside AppointmentServiceImpl.addAppointmentDetails
+2022-12-06 11:38:31 [http-nio-8091-exec-4] INFO  : Inside AppointmentController.getAppointmentDetails
+2022-12-06 11:38:31 [http-nio-8091-exec-4] INFO  : Inside AppointmentServiceImpl.getAppointmentDetails
+2022-12-06 11:38:43 [Thread-24] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:43 [Thread-24] INFO  : Stopping service [Tomcat]
+2022-12-06 11:38:43 [Thread-24] INFO  : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-12-06 11:38:43 [Thread-24] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:43 [Thread-24] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:43 [Thread-24] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:38:43 [Thread-24] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:38:43 [Thread-24] INFO  : HikariPool-6 - Shutdown initiated...
+2022-12-06 11:38:43 [Thread-24] INFO  : HikariPool-6 - Shutdown completed.
+2022-12-06 11:38:44 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:38:44 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:38:44 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:38:44 [restartedMain] INFO  : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:38:44 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:38:44 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:44 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:38:44 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:38:44 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:38:44 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 621 ms
+2022-12-06 11:38:44 [restartedMain] INFO  : HikariPool-7 - Starting...
+2022-12-06 11:38:44 [restartedMain] INFO  : HikariPool-7 - Start completed.
+2022-12-06 11:38:44 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:38:44 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:38:44 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:38:44 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:38:44 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:38:44 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:38:44 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:38:44 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:38:45 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:45 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:38:45 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:38:45 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:38:45 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:38:45 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:38:45 [restartedMain] INFO  : Started AppointmentApplication in 1.52 seconds (JVM running for 2430.524)
+2022-12-06 11:38:45 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:38:48 [Thread-28] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:48 [Thread-28] INFO  : Stopping service [Tomcat]
+2022-12-06 11:38:48 [Thread-28] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:48 [Thread-28] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:48 [Thread-28] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:38:49 [Thread-28] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:38:49 [Thread-28] INFO  : HikariPool-7 - Shutdown initiated...
+2022-12-06 11:38:49 [Thread-28] INFO  : HikariPool-7 - Shutdown completed.
+2022-12-06 11:38:49 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:38:49 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:38:49 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:38:49 [restartedMain] INFO  : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:38:49 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:38:49 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:49 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:38:49 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:38:49 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:38:49 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 576 ms
+2022-12-06 11:38:49 [restartedMain] INFO  : HikariPool-8 - Starting...
+2022-12-06 11:38:49 [restartedMain] INFO  : HikariPool-8 - Start completed.
+2022-12-06 11:38:49 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:38:49 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:38:49 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:38:49 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:38:49 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:38:50 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:38:50 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:38:50 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:38:50 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:50 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:38:50 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:38:50 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:38:50 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:38:50 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:38:50 [restartedMain] INFO  : Started AppointmentApplication in 1.477 seconds (JVM running for 2435.685)
+2022-12-06 11:38:50 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:38:57 [Thread-32] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:57 [Thread-32] INFO  : Stopping service [Tomcat]
+2022-12-06 11:38:57 [Thread-32] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:57 [Thread-32] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:57 [Thread-32] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:38:57 [Thread-32] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:38:57 [Thread-32] INFO  : HikariPool-8 - Shutdown initiated...
+2022-12-06 11:38:57 [Thread-32] INFO  : HikariPool-8 - Shutdown completed.
+2022-12-06 11:38:57 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:38:57 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:38:57 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:38:57 [restartedMain] INFO  : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:38:57 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:38:57 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:57 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:38:57 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:38:57 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:38:57 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 538 ms
+2022-12-06 11:38:57 [restartedMain] INFO  : HikariPool-9 - Starting...
+2022-12-06 11:38:57 [restartedMain] INFO  : HikariPool-9 - Start completed.
+2022-12-06 11:38:57 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:38:58 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:38:58 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:38:58 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:38:58 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:38:58 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:38:58 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:38:58 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:38:58 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:38:58 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:38:58 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:38:58 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:38:58 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:38:58 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:38:58 [restartedMain] INFO  : Started AppointmentApplication in 1.352 seconds (JVM running for 2443.78)
+2022-12-06 11:38:58 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:39:03 [Thread-36] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:03 [Thread-36] INFO  : Stopping service [Tomcat]
+2022-12-06 11:39:03 [Thread-36] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:03 [Thread-36] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:03 [Thread-36] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:03 [Thread-36] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:39:03 [Thread-36] INFO  : HikariPool-9 - Shutdown initiated...
+2022-12-06 11:39:03 [Thread-36] INFO  : HikariPool-9 - Shutdown completed.
+2022-12-06 11:39:03 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:39:03 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:39:03 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:39:03 [restartedMain] INFO  : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:39:03 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:39:03 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:03 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:39:03 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:39:04 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:39:04 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 578 ms
+2022-12-06 11:39:04 [restartedMain] INFO  : HikariPool-10 - Starting...
+2022-12-06 11:39:04 [restartedMain] INFO  : HikariPool-10 - Start completed.
+2022-12-06 11:39:04 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:39:04 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:39:04 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:39:04 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:39:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:04 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:39:04 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:39:04 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:39:04 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:04 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:39:04 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:39:04 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:39:04 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:39:04 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:39:04 [restartedMain] INFO  : Started AppointmentApplication in 1.455 seconds (JVM running for 2449.895)
+2022-12-06 11:39:04 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:39:07 [Thread-40] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:07 [Thread-40] INFO  : Stopping service [Tomcat]
+2022-12-06 11:39:07 [Thread-40] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:07 [Thread-40] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:07 [Thread-40] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:07 [Thread-40] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:39:07 [Thread-40] INFO  : HikariPool-10 - Shutdown initiated...
+2022-12-06 11:39:07 [Thread-40] INFO  : HikariPool-10 - Shutdown completed.
+2022-12-06 11:39:07 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:39:07 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:39:08 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:39:08 [restartedMain] INFO  : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:39:08 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:39:08 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:08 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:39:08 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:39:08 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:39:08 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 556 ms
+2022-12-06 11:39:08 [restartedMain] INFO  : HikariPool-11 - Starting...
+2022-12-06 11:39:08 [restartedMain] INFO  : HikariPool-11 - Start completed.
+2022-12-06 11:39:08 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:39:08 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:39:08 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:39:08 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:39:08 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:08 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:39:08 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:39:08 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:39:09 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:09 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:39:09 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:39:09 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:39:09 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:39:09 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:39:09 [restartedMain] INFO  : Started AppointmentApplication in 1.647 seconds (JVM running for 2454.358)
+2022-12-06 11:39:09 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:39:10 [Thread-44] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:10 [Thread-44] INFO  : Stopping service [Tomcat]
+2022-12-06 11:39:10 [Thread-44] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:10 [Thread-44] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:10 [Thread-44] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:10 [Thread-44] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:39:10 [Thread-44] INFO  : HikariPool-11 - Shutdown initiated...
+2022-12-06 11:39:10 [Thread-44] INFO  : HikariPool-11 - Shutdown completed.
+2022-12-06 11:39:10 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:39:10 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:39:11 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:39:11 [restartedMain] INFO  : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:39:11 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:39:11 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:11 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:39:11 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:39:11 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:39:11 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 555 ms
+2022-12-06 11:39:11 [restartedMain] INFO  : HikariPool-12 - Starting...
+2022-12-06 11:39:11 [restartedMain] INFO  : HikariPool-12 - Start completed.
+2022-12-06 11:39:11 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:39:11 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:39:11 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:39:11 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:39:11 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:11 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:39:11 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:39:11 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:39:12 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:12 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:39:12 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:39:12 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:39:12 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:39:12 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:39:12 [restartedMain] INFO  : Started AppointmentApplication in 1.367 seconds (JVM running for 2457.324)
+2022-12-06 11:39:12 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:39:15 [Thread-48] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:15 [Thread-48] INFO  : Stopping service [Tomcat]
+2022-12-06 11:39:15 [Thread-48] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:15 [Thread-48] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:15 [Thread-48] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:15 [Thread-48] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:39:15 [Thread-48] INFO  : HikariPool-12 - Shutdown initiated...
+2022-12-06 11:39:15 [Thread-48] INFO  : HikariPool-12 - Shutdown completed.
+2022-12-06 11:39:16 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:39:16 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:39:16 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:39:16 [restartedMain] INFO  : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:39:16 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:39:16 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:16 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:39:16 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:39:16 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:39:16 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 588 ms
+2022-12-06 11:39:16 [restartedMain] INFO  : HikariPool-13 - Starting...
+2022-12-06 11:39:16 [restartedMain] INFO  : HikariPool-13 - Start completed.
+2022-12-06 11:39:16 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:39:16 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:39:16 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:39:16 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:39:16 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:16 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:39:16 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:39:16 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:39:17 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:17 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:39:17 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:39:17 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:39:17 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:39:17 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:39:17 [restartedMain] INFO  : Started AppointmentApplication in 1.458 seconds (JVM running for 2462.472)
+2022-12-06 11:39:17 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:39:20 [Thread-52] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:20 [Thread-52] INFO  : Stopping service [Tomcat]
+2022-12-06 11:39:20 [Thread-52] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:20 [Thread-52] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:20 [Thread-52] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:20 [Thread-52] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:39:20 [Thread-52] INFO  : HikariPool-13 - Shutdown initiated...
+2022-12-06 11:39:20 [Thread-52] INFO  : HikariPool-13 - Shutdown completed.
+2022-12-06 11:39:21 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:39:21 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:39:21 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:39:21 [restartedMain] INFO  : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:39:21 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:39:21 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:21 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:39:21 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:39:21 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:39:21 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 565 ms
+2022-12-06 11:39:21 [restartedMain] INFO  : HikariPool-14 - Starting...
+2022-12-06 11:39:21 [restartedMain] INFO  : HikariPool-14 - Start completed.
+2022-12-06 11:39:21 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:39:21 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:39:21 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:39:21 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:39:21 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:21 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:39:22 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:39:22 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:39:22 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:22 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:39:22 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:39:22 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:39:22 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:39:22 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:39:22 [restartedMain] INFO  : Started AppointmentApplication in 1.46 seconds (JVM running for 2467.562)
+2022-12-06 11:39:22 [restartedMain] INFO  : Condition evaluation unchanged
+2022-12-06 11:39:27 [Thread-56] INFO  : Pausing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:27 [Thread-56] INFO  : Stopping service [Tomcat]
+2022-12-06 11:39:27 [Thread-56] INFO  : Stopping ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:27 [Thread-56] INFO  : Destroying ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:27 [Thread-56] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:28 [Thread-56] WARN  : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2022-12-06 11:39:28 [Thread-56] INFO  : HikariPool-14 - Shutdown initiated...
+2022-12-06 11:39:28 [Thread-56] INFO  : HikariPool-14 - Shutdown completed.
+2022-12-06 11:39:28 [restartedMain] INFO  : Starting AppointmentApplication using Java 17.0.4.1 on MSI with PID 16256 (C:\Users\91786\git\repository\appointment-application\target\classes started by 91786 in C:\Users\91786\git\repository\appointment-application)
+2022-12-06 11:39:28 [restartedMain] INFO  : No active profile set, falling back to 1 default profile: "default"
+2022-12-06 11:39:28 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-06 11:39:28 [restartedMain] INFO  : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-12-06 11:39:28 [restartedMain] INFO  : Tomcat initialized with port(s): 8091 (http)
+2022-12-06 11:39:28 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:28 [restartedMain] INFO  : Starting service [Tomcat]
+2022-12-06 11:39:28 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-06 11:39:28 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2022-12-06 11:39:28 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 514 ms
+2022-12-06 11:39:28 [restartedMain] INFO  : HikariPool-15 - Starting...
+2022-12-06 11:39:28 [restartedMain] INFO  : HikariPool-15 - Start completed.
+2022-12-06 11:39:28 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-12-06 11:39:28 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-06 11:39:28 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
