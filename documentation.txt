@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------Documentation-----------------------------------------------------------------------------------
+
+First run the AppointmentApplication.java class to launch our application.
+
+
+This spring boot appplication is enabled with swagger api that generates the REST API documents for this application. Swagger UI can be accessed from below link - 
+
+http://localhost:8091/swagger-ui.html
+
+
+The H2 database console can be accessed from below link - 
+
+http://localhost:8091/h2-console
+
+Connectivity details are per below-
+
+JDBC url - jdbc:h2:mem:testdb
+Driver - org.h2.Driver
+Username - sa
+Password - password
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

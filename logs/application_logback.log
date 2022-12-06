@@ -940,3 +940,16 @@ java.lang.NullPointerException: Cannot invoke "java.util.List.isEmpty()" because
 2022-12-06 11:39:28 [restartedMain] INFO  : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
 2022-12-06 11:39:28 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
 2022-12-06 11:39:28 [restartedMain] INFO  : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-12-06 11:39:28 [restartedMain] INFO  : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-06 11:39:28 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-06 11:39:29 [restartedMain] WARN  : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-06 11:39:29 [restartedMain] INFO  : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-12-06 11:39:29 [restartedMain] INFO  : LiveReload server is running on port 35729
+2022-12-06 11:39:29 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8091"]
+2022-12-06 11:39:29 [restartedMain] INFO  : Tomcat started on port(s): 8091 (http) with context path ''
+2022-12-06 11:39:29 [restartedMain] INFO  : Context refreshed
+2022-12-06 11:39:29 [restartedMain] INFO  : Found 1 custom documentation plugin(s)
+2022-12-06 11:39:29 [restartedMain] INFO  : Scanning for api listing references
+2022-12-06 11:39:29 [restartedMain] INFO  : Generating unique operation named: openapiJsonUsingGET_1
+2022-12-06 11:39:29 [restartedMain] INFO  : Started AppointmentApplication in 1.404 seconds (JVM running for 2474.651)
+2022-12-06 11:39:29 [restartedMain] INFO  : Condition evaluation unchanged
