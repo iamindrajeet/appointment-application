@@ -3,6 +3,8 @@ package com.assessment.appointment.application.controller;
 import java.text.ParseException;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,7 +33,7 @@ public class AppointmentController {
 
 	/** POST request to add new appointments **/
 	@PostMapping("/add")
-	public ResponseEntity<Appointment> addAppointmentDetails(@RequestBody Appointment appointment) {
+	public ResponseEntity<Appointment> addAppointmentDetails(@Valid @RequestBody Appointment appointment) {
 		logger.info("Inside AppointmentController.addAppointmentDetails");
 		return new ResponseEntity<Appointment>(appointmentService.addAppointmentDetails(appointment),
 				HttpStatus.CREATED);
